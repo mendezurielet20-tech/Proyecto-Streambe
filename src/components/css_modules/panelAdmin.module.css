@@ -1,0 +1,52 @@
+
+.panelAdmin{
+    padding: 1vw;
+    background-color: #d9d9d9;
+    min-height: 100vh;
+    transition: all 0.3s ease;
+    display: flex;
+    overflow-y: auto !important;
+}
+.divPrincipal{
+    width:100%;
+}
+.mostrarUsuarios{
+    margin-top: 1vw;
+    padding: 1vw;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+}
+.elementoTabla{
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+.mensaje{
+    width:auto;
+    text-align: center;
+    margin: 1vh auto;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-weight: 500;
+    max-width: 400px;
+    border: 1px solid #bbb;
+    color: #222;
+    background: #eee;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+    position: relative;
+    z-index: 10;
+}
+.mensajeVisible {
+    opacity: 1;
+    pointer-events: auto;
+}
+.mensajeExito {
+    background: #c8f7c5;
+    border: 1px solid #3bb143;
+}
+.mensajeError {
+    background: #f7c5c5;
+    border: 1px solid #d32f2f;
+}

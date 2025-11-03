@@ -1,0 +1,33 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.navlink {
+  transition: all 0.2s ease;
+  text-decoration: none;
+  text-align: center;
+}
+.navlink:hover {
+  background-color: #203f73;
+  color: white;
+}
+.navlink:active {
+  scale: 0.85;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+  background-color: #d9d9d9;
+  overflow-x: hidden;
+}

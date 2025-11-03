@@ -1,0 +1,30 @@
+Requerimientos: 
+
+-Node.js instalado
+
+-Git instalado
+
+-XAMPP instalado
+
+Abrir XAMPP.
+
+Arrancar los servicios de Apache y MySQL.
+
+Abrir PHPmyadmin.
+
+Crear una base de datos con nombre pdcp-sql.
+
+En esta BDD seleccionada, importar el archivo contenido dentro de la carpeta BDD.
+
+Abrir la carpeta del proyecto en una consola de git bash o en un ide/editor de texto como VScode.
+
+En una consola de bash ejecutar el comando “npm i”, que instala las dependencias y backend al software.
+
+En otra consola bash ejecutar el comando “node index.js”, se debería ver el mensaje “Servidor corriendo en http://localhost:3000
+ Conexión a la base de datos exitosa”
+En la primera consola bash o en otra cualquiera (no puede ser la del paso anterior) ejecutar “npm run dev”
+Se debería ver esto:
+   Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+Ahora ingresar al software con las credenciales: Usuario: “admin” Contraseña:“admin”.

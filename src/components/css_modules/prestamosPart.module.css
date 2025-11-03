@@ -1,0 +1,74 @@
+.prestamosContainer {
+  background-color: #91a8c3;
+  border-radius: 0.5vw;
+  min-height: auto;
+}
+
+.prestamosTabla {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #0d47a1;
+  color: white;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.prestamosTabla thead th {
+  padding: 10px 8px;
+  font-weight: bold;
+  background: #0d47a1;
+  color: #fff;
+  border: 1px solid #1a237e;
+  font-size: 1.1em;
+}
+.prestamosTabla thead th:last-child {
+  border-right: none;
+}
+.prestamosTabla tbody td {
+  background: #5da1ee;
+  color: #000000;
+  font-weight: bold;
+  padding: 8px 6px;
+  border: 1px solid rgb(51, 51, 51);
+  font-size: 1.1em;
+}
+
+.botonAcciones {
+  border: 2px solid #222;
+  margin: 0 0.5em 0 0.5em;
+  background: #0d47a1;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  text-align: center;
+  min-width: 17px;
+  min-height: 17px;
+
+}
+.botonAcciones:hover {
+  background: #236dc2;
+  cursor: pointer;
+}
+
+
+/* fila tenue para préstamos devueltos */
+.prestamoDevuelto td {
+  background: #cfd8dc !important; /* gris claro */
+  color: #444 !important;
+  font-weight: normal !important;
+}
+
+/* botones en fila devuelta: gris y no interactivo */
+.prestamoDevuelto {
+  background: #b0bec5 !important; /* gris medio */
+  border-color: #90a4ae !important;
+  color: #5f6368 !important;
+  cursor: default !important;
+  opacity: 0.85;
+}
+.prestamoDevuelto .botonDevueltas:hover,
+.prestamoDevuelto {
+  background: #b0bec5 !important;
+}

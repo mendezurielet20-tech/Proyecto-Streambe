@@ -1,0 +1,10 @@
+
+.homeGrid {
+  padding: 3rem 2rem 2rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  gap: 3.75vw;
+  min-height: 80vh;
+  max-height: fit-content;
+}
+
